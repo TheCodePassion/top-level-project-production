@@ -3,6 +3,7 @@ export interface BuildPatch {
   entry: string
   build: string
   html: string
+  src: string
 }
 
 export interface BuildEnv {
